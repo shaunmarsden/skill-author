@@ -39,10 +39,6 @@ No installation, project, or coding required to try it once.
 
 Test a newly authored skill against at least one real or realistic case before trusting it. A skill that reads well on the page is not the same as one that behaves correctly when it is actually run.
 
-## Licence
-
-MIT.
-
 ## Feedback
 
 Authored a skill for your own task? [Start a discussion](https://github.com/shaunmarsden/skill-author/discussions) if a guardrail was missing or the generated shape did not fit.
