@@ -11,13 +11,7 @@ Turn a repeated task into a proper, bounded AI skill, real guardrails, stop cond
 
 Most people using AI for a repeated task never get past a one-off prompt, which means every use re-explains the task and re-invents whatever boundaries it has, if it has any at all. A skill is the same task turned into a standing set of instructions: what to look for, what a useful answer contains, and where a person has to stay in control, written once and reused.
 
-```mermaid
-flowchart TB
-    A["1. Describe the repeated task"]
-    B["2. Get a complete, bounded skill file"]
-    C["3. Test it against a real case before trusting it"]
-    A --> B --> C
-```
+![Six sections that make up a bounded AI skill file.](assets/diagrams/09-skill-author.svg)
 
 ## Use It
 
