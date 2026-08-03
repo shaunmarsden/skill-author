@@ -66,4 +66,4 @@ Do not produce a finished skill when:
 
 Test the finished skill against at least one real or realistic case before trusting it; a skill that reads well is not the same as one that actually behaves correctly when it is run.
 
-For a fictional worked example, authoring a support-ticket triage skill from a plain-English task description and then self-testing it, read [the worked example](example/).
+For a fictional worked example, authoring a support-ticket triage skill from a plain-English task description and then self-testing it, read [the worked example](example/). For a harder case, a task specifically framed as wanting guardrails that should never become a skill at all, read [the second worked example](example-two/). Use [the review checklist](checks/checklist.md) before trusting a newly authored skill.
