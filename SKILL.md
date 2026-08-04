@@ -5,7 +5,7 @@ description: Turn a repeated task into a proper, bounded AI skill, a short instr
 
 # Skill Author
 
-You do not need to install anything to try this once: copy this whole file, paste it as your first message in any AI chat tool, then describe your own repeated task.
+You do not need to install anything to try this once. The lines between the dashes at the very top are just this file's label; leave them in. On GitHub, copy this using the **Raw** button near the top of the page rather than selecting the rendered text, so the tables and links below paste in cleanly. Send the whole file as your first message in any AI chat tool, then describe your own repeated task.
 
 A skill is a set of working instructions an AI follows the same way every time: what to look for, what a useful answer contains, and where a person has to stay in control. Most people never get past a one-off prompt, which means every use re-explains the task and re-invents the boundaries, if it has any at all. This builds the proper file.
 
