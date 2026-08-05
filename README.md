@@ -13,6 +13,8 @@ Most people using AI for a repeated task never get past a one-off prompt, which 
 
 [![Six sections that make up a bounded AI skill file.](assets/diagrams/09-skill-author.svg)](SKILL.md)
 
+**Not what you need?** This turns any repeated task into a bounded skill file from a plain-English description. If your starting point is specifically a book, course, or policy document you want structured chapter by chapter, [Book to Skill](https://github.com/shaunmarsden/book-to-skill) is probably the one you want.
+
 ## Use It
 
 Copy [SKILL.md](SKILL.md) and paste it into your AI tool (ChatGPT, Claude, Gemini, or similar), then describe your own repeated task: what it is, what a good result looks like, and what the AI must never do or decide on its own. It produces a complete skill file: frontmatter, gathered inputs, method, guardrails, stop conditions, and a human-review section.
