@@ -18,31 +18,31 @@ A skill is a set of working instructions an AI follows the same way every time: 
 
 ## Author the Skill
 
-### 1. Write the Frontmatter
+### 1. Start With the Frontmatter
 
 A `name` (short, hyphenated) and a `description` stating what the skill does, when to use it, and, if there is a similar but genuinely different task nearby, when not to use it and what to use instead.
 
-### 2. Write the Opening
+### 2. Open With the Essentials
 
 One line confirming no installation is needed, paste the whole file and go. Then one or two sentences on what the skill actually does and why it matters, not a restatement of the frontmatter.
 
-### 3. Gather the Inputs
+### 3. Specify the Inputs
 
 List what the skill needs supplied before it can do anything useful. Be specific; "the relevant information" is not a gatherable input, "the last three months of data, broken down by category" is.
 
-### 4. Write the Method
+### 4. Lay Out the Method
 
 The actual steps, in order, specific enough that two different runs on the same input would produce comparably structured output. Push a worked example, a template, or reference material into a separate file rather than inline, once the core file is doing its job without it; see [progressive disclosure](https://github.com/shaunmarsden/practical-ai-sales-workflows/blob/main/guides/progressive-disclosure.md) for what belongs where.
 
-### 5. Write the Guardrails
+### 5. Add the Guardrails
 
-What the skill must never invent, assume, or treat as decided. Guardrails earn their place by naming a specific way this exact task goes wrong, not a generic warning that could apply to anything.
+What the skill must never invent, assume, or treat as decided. Guardrails earn their place by naming a specific way this exact task goes wrong, not a generic warning that could apply to anything: "never make things up" guards nothing in particular, while "never state a delivery date that was not actually confirmed" names one real failure this task can actually have.
 
-### 6. Write the Stop Conditions
+### 6. Set the Stop Conditions
 
 The situations where producing an output at all would be worse than refusing: not enough information supplied, the request asks for something the skill is explicitly not for, or the output would need to fabricate something to look complete.
 
-### 7. Write the Human Review Section
+### 7. Close With Human Review
 
 What a person still has to check or approve before the output gets used or acted on. A skill that produces output and calls the job finished, with nothing left for a person, has probably skipped a guardrail rather than genuinely finished the task.
 
