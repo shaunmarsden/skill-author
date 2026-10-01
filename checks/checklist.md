@@ -1,10 +1,10 @@
 # Human Review Checklist
 
-Run through this before trusting a newly authored skill.
+Go through this before you trust a new skill.
 
-- [ ] The task itself is genuinely appropriate to delegate, not just wrapped in guardrails to look safe
-- [ ] Every guardrail names a specific, real way this exact task goes wrong, not a generic warning
-- [ ] At least one stop condition exists, and it names a concrete situation, not just "if unsure"
-- [ ] The human review section names what to actually check, not a blanket "review before using"
-- [ ] The core file is short enough to load every time; nothing essential is missing because it was pushed to a reference file that does not exist yet
-- [ ] The skill has actually been run against at least one real or realistic case, not just read for plausibility
+- [ ] The task is right to hand to an AI, not just wrapped in guardrails to look safe
+- [ ] Every guardrail names a real, specific way this task goes wrong, not a general warning
+- [ ] There's at least one stop condition, and it names a concrete situation, not just "if unsure"
+- [ ] The human review section says what to check, not a blanket "review before using"
+- [ ] The main file is short enough to load every time, and nothing essential has been moved to a reference file that doesn't exist yet
+- [ ] You've run the skill on at least one real or realistic case, not just read it and judged it plausible
