@@ -11,13 +11,13 @@ I checked [the generated skill](generated-skill.md) against what [SKILL.md](../S
 
 ## Checking the Behaviour Against the Two Deliberate Traps
 
-- **Ticket 1** was written calmly but said the whole team had lost access. The skill's guardrail (urgency needs a stated impact, not a tone) held. It marked the ticket urgent because of the impact, despite the calm wording. That's the harder direction: most triage mistakes go the other way and downgrade a real emergency because it was written calmly.
+- **Ticket 1** was written calmly but said the whole team had lost access. The skill's guardrail (urgency needs a stated impact, not a tone) held. It marked the ticket urgent because of the impact, despite the calm wording. That's the harder direction: most triage mistakes go the other way and downgrade a real emergency because it was written calmly. The category was a judgement call. The triage called it a technical fault and didn't say why not account access, though "nobody can log in at all" fits that category too, and the skill's own rule is to flag a ticket that genuinely reads as two.
 - **Ticket 2** was written angrily but only described a colour preference. The same guardrail held the other way: the heated tone didn't make it urgent.
 - **Ticket 3** fits two categories. The guardrail against forcing one category held. The skill flagged the ticket as ambiguous rather than picking one to look decisive. But the triage gave no urgency, and the skill asks for one on every ticket. A double charge is also one of the impacts the skill names as urgent. So the flag was right and the triage was incomplete.
 
 ## What Still Needs a Human Check
 
-- Four made-up tickets is a small test. As with every tool in this family, it shows the skill can behave correctly, not that it will across a real, messier inbox.
+- Four made-up tickets is a small test. As with every tool in this family, it shows what correct behaviour looks like, not that a model will behave that way across a real, messier inbox.
 - Real tickets are often less clean than these four. A mixed-signal ticket (calm tone, no stated impact, but a plausible reason to worry anyway) would be a harder test to try before trusting this on a real queue.
 
 ## Verdict
