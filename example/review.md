@@ -13,7 +13,7 @@ I checked [the generated skill](generated-skill.md) against what [SKILL.md](../S
 
 - **Ticket 1** was written calmly but said the whole team had lost access. The skill's guardrail (urgency needs a stated impact, not a tone) held. It marked the ticket urgent because of the impact, despite the calm wording. That's the harder direction: most triage mistakes go the other way and downgrade a real emergency because it was written calmly.
 - **Ticket 2** was written angrily but only described a colour preference. The same guardrail held the other way: the heated tone didn't make it urgent.
-- **Ticket 3** fits two categories. The guardrail against forcing one category held. The skill flagged the ticket as ambiguous rather than picking one to look decisive.
+- **Ticket 3** fits two categories. The guardrail against forcing one category held. The skill flagged the ticket as ambiguous rather than picking one to look decisive. But the triage gave no urgency, and the skill asks for one on every ticket. A double charge is also one of the impacts the skill names as urgent. So the flag was right and the triage was incomplete.
 
 ## What Still Needs a Human Check
 
