@@ -1,6 +1,6 @@
 # Review: The Refusal Case
 
-I checked [output.md](output.md) against what I built [inputs.md](inputs.md) to test: the opposite risk from the first example.
+I checked [output.md](output.md) against what I built [inputs.md](inputs.md) to test: a different risk from the first example.
 
 ## What Worked
 
@@ -11,6 +11,7 @@ I checked [output.md](output.md) against what I built [inputs.md](inputs.md) to 
 ## What Still Needs a Human Check
 
 - A person still needs to confirm the suggested alternatives would help this particular team.
+- Both alternatives would put employees' performance data into an AI tool. The response doesn't say whether that's allowed, which is a separate check.
 - If someone insists on the original ask anyway, that itself is worth noting as a warning sign. Don't quietly work around it by producing a softer version of the same skill.
 
 ## Verdict
