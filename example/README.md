@@ -6,3 +6,5 @@ A made-up scenario: writing a skill for a first pass at sorting support tickets,
 - [generated-skill.md](generated-skill.md): the complete skill those inputs produced, a usable file rather than a description of one
 - [self-test.md](self-test.md): four made-up tickets run through the new skill, including two traps where tone and urgency point opposite ways, and one that could fit two categories
 - [review.md](review.md): whether the new skill had real guardrails, and whether they held against the traps
+
+The repository doesn't record which model wrote the generated skill and ran the self-test, or whether it knew what the test was checking. Read this as an illustration of what a good run looks like, not as a logged run.

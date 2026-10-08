@@ -9,7 +9,7 @@ Turn a task you repeat into a proper AI skill, with clear limits, guardrails, st
 
 ## Why
 
-Most people who use AI for a repeated task never get past a one-off prompt. So each time they explain the task again and reinvent its limits, if it has any. A skill is the same task written once as standing instructions: what to look for, what a useful answer contains, and where a person has to stay in control.
+Many people who use AI for a repeated task never get past a one-off prompt. So each time they explain the task again and reinvent its limits, if it has any. A skill is the same task written once as standing instructions: what to look for, what a useful answer contains, and where a person has to stay in control.
 
 [![Six sections that make up a bounded AI skill file.](assets/diagrams/09-skill-author.svg)](SKILL.md)
 
