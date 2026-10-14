@@ -19,7 +19,7 @@ Many people who use AI for a repeated task never get past a one-off prompt. So e
 
 Copy [SKILL.md](SKILL.md) and paste it into your AI tool (ChatGPT, Claude, Gemini or similar). Then describe your task: what it is, what a good result looks like, and what the AI must never do or decide by itself. You get a complete skill file: frontmatter, inputs to gather, method, guardrails, stop conditions and a human-review section.
 
-See [the worked example](example/). It writes a skill for sorting support tickets from a plain-English description, then tests that skill on four made-up tickets. Two of them are traps, where the tone points one way and the urgency the other. [The second worked example](example-two/) tests something more basic: a request for a task that should never become a skill, however many guardrails it has.
+See [the worked example](example/). It writes a skill for sorting support tickets from a plain-English description, then tests that skill on four made-up tickets. Two of them are traps, where the tone points one way and the urgency the other. [The second worked example](example-two/) tests something more basic: a request for a task that should never become a skill, however many guardrails it has. [The third](example-three/) goes the other way and reviews a skill someone else wrote.
 
 Use [the blank template](templates/skill-template.md) to see the shape a finished skill should take, and [the review checklist](checks/checklist.md) before you trust a new one.
 
