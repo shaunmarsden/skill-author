@@ -11,7 +11,7 @@ I went through the [checklist](../checks/checklist.md) against the skill's text.
 | At least one concrete stop condition | None. "When No Skills Are Found" is a fallback, not a stop. Nothing says to stop when a skill would send the user's data away, or when nothing passes the quality step. |
 | The human review section says what to check | There isn't one. The AI presents options and the install command, which leaves the choice with the user, but it doesn't say what the user should check. |
 | Short enough to load every time, nothing essential in a missing file | Passes. It's one file of about 850 words. |
-| Run on at least one real or realistic case | Done once, below. |
+| Run on at least one real or realistic case | One case, with six runs reported below. |
 
 ## The Quality Step Measures Popularity
 

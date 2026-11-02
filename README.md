@@ -5,28 +5,38 @@
   <a href="LICENSE"><img alt="Licence: MIT" src="https://img.shields.io/badge/licence-MIT-lightgrey"></a>
 </p>
 
-Turn a task you repeat into a proper AI skill, with clear limits, guardrails, stop conditions and a human-review section, instead of a one-off prompt you retype and tweak every time.
+Turn a task you repeat into a reusable AI instruction file, with clear limits, reasons to stop and checks for a person before acting.
+
+**Start here:** [Copy the skill into any AI chat](SKILL.md), then describe the task you want it to help you write instructions for. See [Use It](#use-it) for the template to paste alongside it.
 
 ## Why
 
-Many people who use AI for a repeated task never get past a one-off prompt. So each time they explain the task again and reinvent its limits, if it has any. A skill is the same task written once as standing instructions: what to look for, what a useful answer contains, and where a person has to stay in control.
+If you keep writing the same prompt, a skill lets you save the instructions in one place: what to look for, what a useful answer contains and where a person has to stay in control.
 
 [![Six sections that make up a bounded AI skill file.](assets/diagrams/09-skill-author.svg)](SKILL.md)
 
-**Not what you need?** This turns any repeated task into a skill file from a plain-English description. If you're starting from a book, course or policy document you want broken down chapter by chapter, [Book to Skill](https://github.com/shaunmarsden/book-to-skill) is probably the one you want.
+**Not what you need?** This helps write a skill file from a plain-English task description. It is for tasks that are suitable to hand to AI, not every repeated task. If you're starting from a book, course or policy document you want broken down chapter by chapter, [Book to Skill](https://github.com/shaunmarsden/book-to-skill) is probably the one you want.
 
 ## Use It
 
-Copy [SKILL.md](SKILL.md) and paste it into your AI tool (ChatGPT, Claude, Gemini or similar). Then describe your task: what it is, what a good result looks like, and what the AI must never do or decide by itself. You get a complete skill file: frontmatter, inputs to gather, method, guardrails, stop conditions and a human-review section.
+Copy [SKILL.md](SKILL.md) and paste it into any AI chat. Copy [the blank template](templates/skill-template.md) into the same chat too: the skill links to it for the exact layout, but pasting a link doesn't supply the file's contents.
 
-See [the worked example](example/). It writes a skill for sorting support tickets from a plain-English description, then tests that skill on four made-up tickets. Two of them are traps, where the tone points one way and the urgency the other. [The second worked example](example-two/) tests something more basic: a request for a task that should never become a skill, however many guardrails it has. [The third](example-three/) goes the other way and reviews a skill someone else wrote.
+Then describe your task: what it is, what a good result looks like and what the AI must never do or decide by itself. The requested output has a name and description, inputs to gather, steps to follow, limits, reasons to stop and a human-review section.
 
-Use [the blank template](templates/skill-template.md) to see the shape a finished skill should take, and [the review checklist](checks/checklist.md) before you trust a new one.
+Use [the review checklist](checks/checklist.md) before you trust a new skill.
+
+## Examples and evidence
+
+- [Support-ticket triage](example/): a generated skill and four made-up tickets, including two where tone and urgency point opposite ways. The review also records an unclear category and a missing urgency.
+- [An unsafe task](example-two/): an illustrative refusal to write a skill for a decision that should stay with a person.
+- [Reviewing someone else's skill](example-three/): a checklist review of an external skill, with six reported runs on made-up search results.
+
+The first two examples don't record the model or how the outputs were produced. They are illustrations, not logged model tests. The third reports six runs on one model without tools, but doesn't include the raw replies or identify the model. I can't verify its run totals from files in this repo. None of these examples establishes that the tool behaves reliably across AI products or real tasks.
 
 <details>
 <summary><strong>See exactly what it produces</strong></summary>
 
-1. Frontmatter: a name, and a description of what the skill does and when not to use it
+1. A name and description at the top of the file, including when not to use it
 2. Inputs to gather: what the skill needs before it can do anything useful
 3. The method: specific steps, in order
 4. Guardrails: what the skill must never invent, assume or treat as decided
